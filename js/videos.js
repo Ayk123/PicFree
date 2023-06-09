@@ -17,7 +17,7 @@ async function displayRandomBG() {
   background.style.backgroundRepeat = "no-repeat";
 }
 
-const API_KEY = "XYT5T3yPOk1cO09fCRPeoJGqg2u8ct25prLl69N3dlI";
+const API_KEY = "nHKKyjynUJBNr_RN4jHaDm_zeMLe7kBaSLJ42dl83mM";
 const API_URL = "https://api.unsplash.com";
 
 // ########## Download Video
@@ -153,6 +153,7 @@ function showModal() {
   const modal = document.getElementById(imageId);
   modal.classList.remove("hidden");
   modal.setAttribute("aria-hidden", "false");
+  modal.style.zIndex = "888";
   document.body.style.overflow = "hidden";
 }
 
@@ -197,7 +198,7 @@ async function fetchAPIRandom(endpoint) {
 
 async function fetchPexelVideoAPI() {
   const apiUrl = `https://api.pexels.com/videos/popular?page=${currentPage}&per_page=${perPage}`;
-  const apiKey = "TQk1fqYBhfZj0EikkQiZSF31I3doyO7RvpZwe8I4QZpNiREVQhU2jxTJ";
+  const apiKey = "ui5iMRf0BLcqEKVPlVeUmfLW4qMuHtkhspEBwYxN76cFtAwys5pezb2N";
   const response = await fetch(apiUrl, {
     headers: { Authorization: apiKey },
   });

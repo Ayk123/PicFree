@@ -62,7 +62,7 @@ themeToggleBtn.addEventListener("click", function () {
   }
 });
 
-const API_KEY = "XYT5T3yPOk1cO09fCRPeoJGqg2u8ct25prLl69N3dlI";
+const API_KEY = "nHKKyjynUJBNr_RN4jHaDm_zeMLe7kBaSLJ42dl83mM";
 const API_URL = "https://api.unsplash.com";
 
 // ########## Display Random Background

@@ -1,4 +1,4 @@
-const accessKey = "XYT5T3yPOk1cO09fCRPeoJGqg2u8ct25prLl69N3dlI";
+const accessKey = "nHKKyjynUJBNr_RN4jHaDm_zeMLe7kBaSLJ42dl83mM";
 
 let page = 1;
 let per_page = 20;
@@ -40,7 +40,7 @@ function backToTop() {
 
 // Random Background
 
-const API_KEY = "F_AlrteKQ31bG2Gz9qt6eP94IkHZdOjnYQafFuuKFGc";
+const API_KEY = "nHKKyjynUJBNr_RN4jHaDm_zeMLe7kBaSLJ42dl83mM";
 const API_URL = "https://api.unsplash.com";
 
 async function fetchAPIRandom(endpoint) {
